@@ -1,0 +1,26 @@
+# Build output (C#)
+[Bb]in/
+[Oo]bj/
+Library/
+*.pid
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# UI build (React/TypeScript)
+UI/node_modules/
+UI/build/
+UI/dist/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,60 @@
+﻿<Publish>
+	<!--Id must be set in order to update existing mod. it is not required for publishing mod for the first time-->
+	<ModId Value="148861" /> <!-- 148861 on 6/24/2026 -->
+	<!--Name of the mod to display to players-->
+	<DisplayName Value="Toggle Edge Scrolling" />
+	<!--Short description of the mod-->
+	<ShortDescription Value="Quickly toggle mouse edge scrolling on or off with a hotkey or an on-screen button." />
+	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
+	<!--LongDescription Value="This is a long description" /-->
+	<LongDescription>
+Quickly turn the camera's mouse edge scrolling on or off - no more digging through the options menu every time.
+
+## Use Case
+If you're running a multi-monitor setup or with a small screen, you may find that the mouse edge scrolling is sometimes annoying. Even more annoying is when you alt-tab to check your email or order pizza and come back to find the camera has moved to the edge of the map.
+
+## Features
+- Inspired by algernon's [Toggle Edge Scrolling mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2645254941) for Cities: Skylines.
+- Toggle edge scrolling with a configurable hotkey (default Ctrl + Shift + E).
+- Optional on-screen toggle button, shown either in the main UI (top-right of the screen) or in the game's mod button menu.
+- The button is green when edge scrolling is on and red when it is off.
+- Optionally disable edge scrolling automatically on startup.
+- Optionally disable edge scrolling while the game window is in the background, then restore it when the window is focused again.
+
+## Optional
+- Unified Icon Library - if installed, the toggle button uses a matching game-style icon. It is not required; without it the mod uses its own bundled icon.
+
+## Usage
+Configure the hotkey and button placement under Options &gt; Toggle Edge Scrolling.
+
+## Notes
+ - HUGE thank you to all of the actual mod makers out there who have made this game so much more fun!  Thank you also for sharing your knowledge and examples.
+	</LongDescription>
+	<!--Thumbnail-->
+	<Thumbnail Value="Properties/Thumbnail.png" />
+	<!--Screenshot, can be set multiple times-->
+	<Screenshot Value="Properties/Thumbnail.png" />
+	<Screenshot Value="Properties/settings.png" />
+	<!--Tag, can be set multiple times-->
+	<Tag Value="Code Mod" />
+	<!--Link to the forum post where the mod can be discussed-->
+	<ForumLink Value="" />
+	<!--Version of the mod-->
+	<ModVersion Value="1.0" />
+	<!--Recommended version of the base game to use the mod-->
+	<GameVersion Value="1.6.*" />
+	<!--Dependency for the mod, can be set multiple times-->
+	<Dependency Id="" />
+	<!--Required DLC, can be set multiple times. Supported values are "Landmark Buildings", "San Fransisco Set", "Beach Properties", "Urban Promenades", "Modern Architecture"-->
+	<RequiredDLC Value="" />
+	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
+	<ChangeLog Value="Initial release." />
+	<!--<ChangeLog>
+	</ChangeLog>-->
+	<!--External link, can be set multiple times. supported types are "discord", "github", "youtube", "twitch", "x", "paypal", "patreon", "buymeacoffee", "kofi", "crowdin", "gitlab", "gofundme"-->
+	<ExternalLink Type="github" Url="https://github.com/eiddor/ToggleEdgeScrolling" />
+	<ExternalLink Type="discord" Url="https://discord.gg/HTav7ARPs2" />
+
+	<!--Supported values Public, Private, Unlisted-->
+	<AccessLevel Value="Public" />
+</Publish>

@@ -1,0 +1,16 @@
+// `.enabled` / `.disabled` are added to the FloatingButton root, keeping all of
+// its default classes. The icon inside is a tinted (masked) element whose fill
+// comes from its own `background-color`, so we override that on the descendant
+// icon element directly. The `[class*="icon"]` match targets the hashed vanilla
+// icon class; `!important` beats the icon's default fill.
+.enabled {
+  :global([class*="icon"]) {
+    background-color: #5fc46a !important;
+  }
+}
+
+.disabled {
+  :global([class*="icon"]) {
+    background-color: #e2554f !important;
+  }
+}

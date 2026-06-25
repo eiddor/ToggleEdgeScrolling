@@ -38,7 +38,7 @@ Configure the hotkey and button placement under Options &gt; Toggle Edge Scrolli
 	<!--Tag, can be set multiple times-->
 	<Tag Value="Code Mod" />
 	<!--Link to the forum post where the mod can be discussed-->
-	<ForumLink Value="" />
+	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/toggle-edge-scrolling.1931447/" />
 	<!--Version of the mod-->
 	<ModVersion Value="1.0" />
 	<!--Recommended version of the base game to use the mod-->

@@ -5,7 +5,7 @@
 	
 		<!--The file where mod information which is required for publishing mod on PDX mods are stored-->
 		<PublishConfigurationPath>Properties\PublishConfiguration.xml</PublishConfigurationPath>
-		<Description>A mod for Cities: Skylines II to easily toggle mouse edge scrolling</Description>
+		<Description></Description>
 	</PropertyGroup>
 	
 	<!--Imports must be after PropertyGroup block-->
